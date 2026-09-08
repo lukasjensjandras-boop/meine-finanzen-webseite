@@ -5,270 +5,136 @@ permalink: /datenschutz/
 <html lang="de">
 <head>
 <meta charset="utf-8">
-
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#070b14">
-
+<meta name="theme-color" content="#050817">
+<meta name="color-scheme" content="dark">
 <link rel="icon" href="/logo.png">
 <link rel="stylesheet" href="/styles.css">
-
 <title>Datenschutz – Meine Finanzen</title>
-
-<meta
-  name="description"
-  content="Datenschutzerklärung von Meine Finanzen."
->
+<meta name="description" content="Datenschutzerklärung von Meine Finanzen zu Konto, Finanzdaten, Finanz-Assistent, Gmail-Verbindung, lokalen Sicherheitsfunktionen und Löschung.">
 </head>
-
 <body>
 
-<div class="topbar">
+<header class="topbar">
   <div class="wrap nav">
-
-    <a class="brand" href="/">
-      <img src="/logo.png" alt="">
-      <span>Meine Finanzen</span>
-    </a>
-
-    <div class="links">
+    <a class="brand" href="/"><img src="/logo.png" alt="Logo von Meine Finanzen"><span>Meine Finanzen</span></a>
+    <nav class="links" aria-label="Hauptnavigation">
       <a href="/#funktionen">Funktionen</a>
+      <a href="/#sicherheit">Sicherheit</a>
       <a href="/datenschutz/">Datenschutz</a>
       <a href="/impressum/">Impressum</a>
-    </div>
-
+    </nav>
   </div>
-</div>
+</header>
 
-
-<main class="legalWrap">
-<div class="wrap">
-
-<article class="legal">
-
-<span class="kicker">Rechtliches</span>
-
+<main class="legalWrap"><div class="wrap"><article class="legal">
+<p class="kicker">Rechtliches</p>
 <h1>Datenschutzerklärung</h1>
+<p><strong>Stand: 8. September 2026</strong></p>
 
-<p>
-  <strong>Stand: September 2026</strong>
-</p>
-
+<div class="note success"><strong>Kurzfassung:</strong> Meine Finanzen verarbeitet nur Daten, die für die vom Nutzer gewählten App-Funktionen erforderlich sind. Gmail und der Finanz-Assistent sind optional beziehungsweise zustimmungsabhängig, Bankzugriff ist in der aktuellen Testversion nicht freigeschaltet, biometrische Merkmale werden nicht an Meine Finanzen übertragen und Nutzer können Daten exportieren oder löschen.</div>
 
 <h2>1. Verantwortlicher</h2>
-
 <p>
 Lukas-Jens Jandras<br>
 Meine Finanzen<br>
 Eichhörnchen Weg 8<br>
 25497 Prisdorf<br>
 Deutschland<br>
-E-Mail:
-<a href="mailto:meinefinanzen.app@gmail.com">
-meinefinanzen.app@gmail.com
-</a>
+E-Mail: <a href="mailto:meinefinanzen.app@gmail.com">meinefinanzen.app@gmail.com</a>
 </p>
-
 
 <h2>2. Welche Daten verarbeitet werden</h2>
-
-<p>
-Je nach Nutzung verarbeitet Meine Finanzen insbesondere die
-E-Mail-Adresse des Benutzerkontos, Rechnungsdaten wie Anbieter,
-Betrag, Fälligkeit, Kategorie, Notiz und Rechnungsnummer sowie
-Einstellungen zu Erinnerungen und technische Sitzungsdaten.
-</p>
-
+<p>Je nach Nutzung können insbesondere folgende Daten verarbeitet werden:</p>
+<div class="dataGrid">
+  <div class="dataCard"><b>Konto</b><p>E-Mail-Adresse, technische Nutzer-ID sowie Sitzungs- und Authentifizierungsdaten.</p></div>
+  <div class="dataCard"><b>Rechnungen</b><p>Anbieter, Betrag, Fälligkeit, Kategorie, Notizen, Rechnungsnummer, Zahlungsstatus und technische Quellenkennzeichen.</p></div>
+  <div class="dataCard"><b>Planung &amp; Verträge</b><p>Vom Nutzer hinterlegte Planungswerte, Einnahmen, Kontostand, Budgets, Sparpuffer, Ziele, Raten- und Vertragsdaten sowie vergleichbare Finanzplanungsinformationen.</p></div>
+  <div class="dataCard"><b>App-Einstellungen</b><p>Erinnerungen, Benachrichtigungsoptionen, Darstellungs- und Sicherheitseinstellungen sowie weitere nutzerbezogene Konfigurationen.</p></div>
+</div>
+<p>Zusätzliche Daten werden nur verarbeitet, wenn der Nutzer die jeweilige Funktion verwendet oder eine optionale Verbindung ausdrücklich aktiviert.</p>
 
 <h2>3. Benutzerkonto und Anmeldung</h2>
+<p>Die reguläre Anmeldung erfolgt per einmaligem E-Mail-Code. Für Authentifizierung, Datenbank und serverseitige Funktionen wird Supabase eingesetzt. Dabei werden die für Anmeldung, Kontozuordnung, Sitzungsverwaltung und sichere Bereitstellung der Anwendung erforderlichen Daten verarbeitet.</p>
+<p>Die App trennt Daten technisch nach Nutzerkonto. Sitzungen können serverseitig beendet und lokal entfernt werden.</p>
 
-<p>
-Die Anmeldung erfolgt per einmaligem E-Mail-Code.
-Für Authentifizierung, Datenbank und serverseitige Funktionen wird
-Supabase eingesetzt.
+<h2>4. Rechnungen, Planung, Verträge und Analysen</h2>
+<p>Meine Finanzen speichert beziehungsweise verarbeitet die vom Nutzer erfassten oder aus ausdrücklich aktivierten Funktionen übernommenen Finanzinformationen, damit Rechnungen, Fälligkeiten, Monatspläne, Prognosen, Auswertungen, Wiederholungen, Ziele, Verträge und ähnliche Funktionen bereitgestellt werden können.</p>
+<p>Bei Vertragsfunktionen können beispielsweise Anbieter, Betrag, Abrechnungsrhythmus, Kundennummer, optionale Kontaktadresse und Notizen verarbeitet werden. Kündigungstexte werden lediglich vorbereitet. Eine E-Mail wird erst durch die eigene Aktion des Nutzers in dessen E-Mail-Anwendung versendet.</p>
+<p>Prognosen und Simulationen basieren auf den gespeicherten Angaben des Nutzers. Sie dienen ausschließlich der Übersicht und Planung und stellen keine individuelle Finanz-, Kredit-, Steuer-, Rechts- oder Schuldnerberatung dar.</p>
 
-Dabei werden die für Anmeldung, Kontozuordnung und sichere
-Bereitstellung der Anwendung erforderlichen Daten verarbeitet.
-</p>
+<h2>5. Finanz-Assistent („Finanz-KI“)</h2>
+<p>Der Finanz-Assistent wird nur genutzt, wenn der Nutzer eine Frage stellt und der Verarbeitung der beschriebenen zusammengefassten Finanzdaten zustimmt. Zur Beantwortung können je nach Datenlage insbesondere zusammengefasste Werte wie Kontostand, Sparpuffer, Safe-to-Spend, erwartete Einnahmen, ein möglicher nächster Engpass, offene Rechnungen, erkannte Verträge und gegebenenfalls zuletzt verfügbare Transaktionszusammenfassungen verarbeitet werden.</p>
+<p>Es werden dabei keine Bank-Zugangsdaten, Passwörter, OAuth-Token oder API-Schlüssel an den Finanz-Assistenten übermittelt. Wenn eine aus Gmail importierte Rechnung Teil der offenen Rechnungen ist, können deren bereits gespeicherte Rechnungsfelder Bestandteil der Zusammenfassung sein.</p>
+<p>Die Verarbeitung erfolgt aktuell über eine serverseitige Supabase Edge Function. Dabei wird derzeit kein externer generativer KI-Anbieter aufgerufen und die übermittelten Daten werden nicht zum Training allgemeiner KI-/ML-Modelle verwendet. Falls sich die technische Umsetzung künftig ändert, wird diese Datenschutzerklärung entsprechend aktualisiert.</p>
 
+<h2>6. Gmail-Verbindung und Google-Nutzerdaten</h2>
+<p>Die Gmail-Verbindung ist freiwillig. Sie wird nur nach ausdrücklicher Zustimmung des Nutzers über Google OAuth hergestellt. Die Anwendung fordert ausschließlich Lesezugriff auf Gmail-Inhalte an, soweit dieser für die automatische Rechnungserkennung erforderlich ist. Meine Finanzen erhält keinen Gmail-Sendezugriff.</p>
+<p>Bei aktivierter Gmail-Verbindung können Betreff, Absender, Nachrichtentext, technische Nachrichtenkennungen sowie rechnungsbezogene Anhänge wie PDF-Dateien serverseitig ausgewertet werden, um Rechnungsinformationen zu erkennen. Daraus können unter anderem Anbieter, Betrag, Fälligkeit, Rechnungsnummer und ein Hinweis auf die Quelle gespeichert werden. Eine technische Gmail-Nachrichten-ID wird zur Duplikatvermeidung gespeichert.</p>
+<p>OAuth-Zugangsdaten werden serverseitig gespeichert, damit die vom Nutzer aktivierte Verbindung fortbestehen kann. Der Nutzer kann die Gmail-Verbindung jederzeit in der App trennen. Beim Trennen werden die gespeicherte Verbindung und die zugehörigen OAuth-Zugangsdaten entfernt. Bereits aus Gmail erzeugte Rechnungen bleiben bestehen, bis der Nutzer sie löscht.</p>
+<div class="note"><strong>Google API Limited Use:</strong> Die Nutzung von Informationen, die über Google APIs erhalten werden, erfolgt gemäß der Google API Services User Data Policy einschließlich der Limited-Use-Anforderungen. Google-Nutzerdaten werden nicht verkauft, nicht für personalisierte Werbung genutzt und nicht zum Training allgemeiner KI-/ML-Modelle verwendet.</div>
 
-<h2>4. Gmail-Verbindung und Google-Nutzerdaten</h2>
+<h2>7. Dokument-Scan und PDF-Funktionen</h2>
+<p>Die native Texterkennung für ausgewählte Dokumentbilder erfolgt auf dem Gerät. Der Bildinhalt wird dabei an die lokale Texterkennung der App übergeben; durch diese Scan-Funktion allein wird das Originalbild nicht automatisch an den Meine-Finanzen-Server hochgeladen.</p>
+<p>Von der App erzeugte PDF-Berichte werden lokal auf dem Gerät erstellt und im vorgesehenen Download- beziehungsweise Dokumentbereich gespeichert.</p>
 
-<p>
-Die Gmail-Verbindung ist freiwillig und wird nur nach ausdrücklicher
-Zustimmung des Nutzers über Google OAuth hergestellt.
+<h2>8. PIN, Biometrie und Geräteschutz</h2>
+<p>Die App kann durch PIN und, auf unterstützten Geräten, durch biometrische Authentifizierung geschützt werden. Fingerabdruck-, Gesichts- oder andere biometrische Vorlagen verbleiben beim Betriebssystem beziehungsweise im sicheren Gerätebereich. Meine Finanzen erhält keine biometrischen Rohdaten oder biometrischen Vorlagen.</p>
+<p>Die App kann bei Wechsel in den Hintergrund eine Datenschutz-Abdeckung anzeigen, damit Finanzinformationen in der App-Vorschau nicht sichtbar bleiben.</p>
 
-Die Anwendung fordert ausschließlich den für das Lesen von
-Gmail-Inhalten vorgesehenen Zugriff an, soweit dieser für die Funktion
-„automatische Rechnungserkennung“ benötigt wird.
-</p>
+<h2>9. Bankverbindung</h2>
+<p>Die Bankverbindung ist in der aktuellen Testversion nicht für Nutzer freigeschaltet. Über diese Funktion werden derzeit keine Bankkonten live verbunden, keine Banktransaktionen aus Nutzerkonten automatisch abgerufen und keine Zahlungen ausgelöst.</p>
+<p>Falls eine produktive Open-Banking-Verbindung später aktiviert wird, wird diese Datenschutzerklärung vor beziehungsweise mit der Freischaltung entsprechend ergänzt.</p>
 
-<p>
-Gmail-Daten werden verwendet, um E-Mails auf rechnungsbezogene
-Informationen zu prüfen und daraus für den Nutzer sichtbare
-Rechnungsdaten zu erzeugen.
-
-In der Rechnungsdatenbank werden die erkannten Rechnungsinformationen
-sowie eine technische Nachrichten-ID zur Duplikatvermeidung gespeichert.
-</p>
-
-<p>
-OAuth-Zugriffsdaten für die Gmail-Verbindung werden serverseitig
-gespeichert, damit die vom Nutzer aktivierte Verbindung fortbestehen kann.
-
-Der Nutzer kann die Gmail-Verbindung jederzeit in der App trennen.
-</p>
-
-
-<div class="note">
-
-<strong>Google API Limited Use:</strong>
-
-Die Nutzung von Informationen, die über Google APIs erhalten werden,
-erfolgt gemäß der Google API Services User Data Policy einschließlich
-der Limited-Use-Anforderungen.
-
-Google-Nutzerdaten werden nicht für personalisierte Werbung verkauft
-oder für das Training allgemeiner KI-/ML-Modelle verwendet.
-
-</div>
-
-
-<h2>5. Zweck der Verarbeitung</h2>
-
+<h2>10. Zweck der Verarbeitung</h2>
 <ul>
-  <li>Bereitstellung des Benutzerkontos und der App-Funktionen</li>
-  <li>Speicherung und Anzeige eigener Rechnungen</li>
-  <li>
-    Automatische Erkennung rechnungsbezogener Inhalte aus einem
-    freiwillig verbundenen Gmail-Konto
-  </li>
-  <li>Fälligkeitserinnerungen</li>
-  <li>Datenexport und Kontolöschung</li>
-  <li>Sicherheit, Fehleranalyse und technischer Betrieb</li>
+  <li>Bereitstellung und Absicherung des Benutzerkontos</li>
+  <li>Speicherung, Bearbeitung und Anzeige eigener Rechnungen</li>
+  <li>Finanzplanung, Prognosen, Auswertungen und Simulationen auf Basis eigener Angaben</li>
+  <li>optionale Beantwortung eigener Finanzfragen durch den Finanz-Assistenten</li>
+  <li>Vertragsübersicht und Vorbereitung von Kündigungstexten</li>
+  <li>Fälligkeitserinnerungen und nutzergewählte Benachrichtigungen</li>
+  <li>optionale automatische Erkennung rechnungsbezogener Gmail-Inhalte</li>
+  <li>Datenexport, Datenlöschung und Kontolöschung</li>
+  <li>Sicherheit, Missbrauchsschutz, Fehlerbehebung und technischer Betrieb</li>
 </ul>
 
+<h2>11. Dienstleister</h2>
+<p><strong>Supabase</strong> wird für Authentifizierung, Datenbank und serverseitige Funktionen einschließlich des derzeitigen Finanz-Assistenten eingesetzt.</p>
+<p><strong>Resend</strong> wird für bestimmte von der App ausgelöste E-Mails und Erinnerungen eingesetzt.</p>
+<p><strong>Google</strong> verarbeitet Daten im Rahmen der vom Nutzer autorisierten Gmail-/OAuth-Verbindung sowie im Rahmen geräteseitiger Google-Komponenten, soweit diese auf dem Gerät verwendet werden.</p>
+<p>Dienstleister erhalten Daten nur im Rahmen der für die jeweilige Funktion erforderlichen Verarbeitung. Personenbezogene Daten werden nicht verkauft.</p>
 
-<h2>6. Dienstleister</h2>
+<h2>12. Speicherdauer und Löschung</h2>
+<p>App-Daten werden grundsätzlich so lange gespeichert, wie das Benutzerkonto besteht oder die jeweilige Funktion genutzt wird. Nutzer können einzelne Rechnungen innerhalb der App löschen, Gmail unabhängig vom Konto trennen und ihr gesamtes Konto einschließlich der zugeordneten App-Daten löschen.</p>
+<p>Eine Kontolöschung oder die Löschung bestimmter Daten kann auch ohne installierte App über <a href="/konto-loeschen/">meinefinanzenapp.de/konto-loeschen</a> angefordert werden.</p>
+<p>Daten werden nur dann darüber hinaus aufbewahrt, soweit dies aufgrund zwingender gesetzlicher Pflichten oder zur Durchsetzung beziehungsweise Abwehr von Rechtsansprüchen erforderlich ist.</p>
 
-<p>
-<strong>Supabase</strong> wird für Authentifizierung, Datenbank und
-Edge Functions eingesetzt.
+<h2>13. Datenexport</h2>
+<p>Die App stellt eine Exportfunktion bereit, mit der Nutzer ihre gespeicherten App-Daten sichern können. OAuth-Token, API-Schlüssel, private Schlüssel oder andere geheime Zugangsdaten werden nicht in den Nutzerexport aufgenommen.</p>
 
-<strong>Resend</strong> wird für den Versand bestimmter
-Anwendungs-E-Mails und Erinnerungen genutzt.
+<h2>14. Sicherheit der Übertragung</h2>
+<p>Daten werden bei der Übertragung über verschlüsselte HTTPS-Verbindungen übertragen. Zusätzlich setzt die Anwendung Zugriffskontrollen und nutzerbezogene Datenbankregeln ein, um Daten zwischen Benutzerkonten zu trennen.</p>
 
-<strong>Google</strong> verarbeitet Daten im Rahmen der vom Nutzer
-autorisierten Gmail-/OAuth-Verbindung.
-</p>
+<h2>15. Betroffenenrechte</h2>
+<p>Betroffene Personen können im Rahmen der gesetzlichen Voraussetzungen insbesondere Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Datenübertragbarkeit verlangen sowie einer Verarbeitung widersprechen. Anfragen können an <a href="mailto:meinefinanzen.app@gmail.com">meinefinanzen.app@gmail.com</a> gerichtet werden.</p>
 
+<h2>16. Änderungen</h2>
+<p>Diese Datenschutzerklärung wird angepasst, wenn sich Funktionen, technische Dienstleister oder rechtliche Anforderungen ändern. Die jeweils aktuelle Fassung wird auf dieser Seite veröffentlicht.</p>
 
-<h2>7. Speicherdauer und Löschung</h2>
-
-<p>
-App-Daten werden grundsätzlich so lange gespeichert, wie das
-Benutzerkonto besteht oder die jeweilige Funktion genutzt wird.
-
-Nutzer können ihr Konto innerhalb der App dauerhaft löschen.
-
-Dabei werden die dem Konto zugeordneten App-Daten gelöscht.
-
-Eine Gmail-Verbindung kann unabhängig davon getrennt werden.
-</p>
-
-<p>
-Eine Kontolöschung kann auch ohne installierte App über
-<a href="/konto-loeschen/">
-meinefinanzenapp.de/konto-loeschen
-</a>
-angefordert werden.
-</p>
-
-
-<h2>8. Datenexport</h2>
-
-<p>
-Die App stellt eine Exportfunktion bereit, mit der Nutzer ihre
-gespeicherten App-Daten als JSON-Datei sichern können.
-
-OAuth-Token, API-Schlüssel oder andere geheime Zugangsdaten werden
-nicht in den Nutzerexport aufgenommen.
-</p>
-
-
-<h2>9. Weitergabe</h2>
-
-<p>
-Personenbezogene Daten werden nicht verkauft.
-
-Eine Weitergabe erfolgt nur, soweit sie für den technischen Betrieb
-und die vom Nutzer gewählten Funktionen erforderlich ist,
-gesetzlich vorgeschrieben ist oder eine entsprechende Einwilligung
-vorliegt.
-</p>
-
-
-<h2>10. Betroffenenrechte</h2>
-
-<p>
-Betroffene Personen können im Rahmen der gesetzlichen Voraussetzungen
-insbesondere Auskunft, Berichtigung, Löschung, Einschränkung der
-Verarbeitung und Datenübertragbarkeit verlangen sowie einer
-Verarbeitung widersprechen.
-
-Anfragen können an die oben genannte Kontaktadresse gerichtet werden.
-</p>
-
-
-<h2>11. Änderungen</h2>
-
-<p>
-Diese Datenschutzerklärung kann angepasst werden, wenn sich Funktionen,
-technische Dienstleister oder rechtliche Anforderungen ändern.
-
-Die jeweils aktuelle Fassung wird auf dieser Seite veröffentlicht.
-</p>
-
-</article>
-
-</div>
-</main>
-
+</article></div></main>
 
 <footer class="footer">
-
   <div class="wrap footerRow">
-
-    <div>
-      © 2026 Meine Finanzen · Lukas-Jens Jandras
-    </div>
-
+    <div>© 2026 Meine Finanzen · Lukas-Jens Jandras</div>
     <div class="footerLinks">
-
-      <a href="/datenschutz/">
-        Datenschutz
-      </a>
-
-      <a href="/nutzungsbedingungen/">
-        Nutzungsbedingungen
-      </a>
-
-      <a href="/konto-loeschen/">
-        Konto löschen
-      </a>
-
-      <a href="/impressum/">
-        Impressum
-      </a>
-
-      <a href="mailto:meinefinanzen.app@gmail.com">
-        Kontakt
-      </a>
-
+      <a href="/datenschutz/">Datenschutz</a>
+      <a href="/nutzungsbedingungen/">Nutzungsbedingungen</a>
+      <a href="/konto-loeschen/">Daten &amp; Konto löschen</a>
+      <a href="/impressum/">Impressum</a>
+      <a href="mailto:meinefinanzen.app@gmail.com">Kontakt</a>
     </div>
-
   </div>
-
 </footer>
-
 </body>
 </html>
